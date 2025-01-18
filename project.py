@@ -144,7 +144,7 @@ while running:
             meteor_speed = 6 + (score_value // 10)  # Increase meteor speed by 1 every 10 points
 
         # End the game if score reaches 70
-        if score_value >= 10:
+        if score_value >= 70:
             game_state = GAME_WIN
             screen.fill('black')
             screen.blit(win_text_surf, win_text_rect)
